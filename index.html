@@ -1,0 +1,791 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Guía Completa Keto + Ayuno Intermitente</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style/style.css">
+</head>
+<body>
+    <div class="app-container">
+        <!-- Header -->
+        <header class="header">
+            <div class="header-content">
+                <h1 class="logo">
+                    <span class="logo-icon">🥑</span>
+                    Guía Completa Keto
+                </h1>
+                <p class="subtitle">Dieta Cetogénica + Ayuno Intermitente</p>
+                <p class="objective">Objetivo: Bajar de peso y quemar grasa</p>
+            </div>
+        </header>
+
+        <!-- Navigation -->
+        <nav class="main-nav">
+            <button class="nav-btn active" data-section="intro">
+                <span class="nav-icon">📋</span>
+                <span class="nav-text">Introducción</span>
+            </button>
+            <button class="nav-btn" data-section="menu">
+                <span class="nav-icon">🍽️</span>
+                <span class="nav-text">Menú Semanal</span>
+            </button>
+            <button class="nav-btn" data-section="alimentos">
+                <span class="nav-icon">✅</span>
+                <span class="nav-text">Alimentos</span>
+            </button>
+            <button class="nav-btn" data-section="ayuno">
+                <span class="nav-icon">⏱️</span>
+                <span class="nav-text">Ayuno</span>
+            </button>
+            <button class="nav-btn" data-section="compras">
+                <span class="nav-icon">🛒</span>
+                <span class="nav-text">Lista Compras</span>
+            </button>
+            <button class="nav-btn" data-section="tips">
+                <span class="nav-icon">💡</span>
+                <span class="nav-text">Tips</span>
+            </button>
+        </nav>
+
+        <!-- Section: Introducción -->
+        <section class="content-section active" id="section-intro">
+            <div class="section-card">
+                <h2 class="section-title">🥑 ¿Qué es la Dieta Cetogénica?</h2>
+                <div class="info-grid">
+                    <div class="info-card">
+                        <div class="info-icon">🥓</div>
+                        <h3>Alta en Grasas</h3>
+                        <p>Aceites, mantequilla, aguacate, nueces</p>
+                    </div>
+                    <div class="info-card">
+                        <div class="info-icon">🥩</div>
+                        <h3>Moderada en Proteínas</h3>
+                        <p>120-180g cocido por comida</p>
+                    </div>
+                    <div class="info-card">
+                        <div class="info-icon">🥬</div>
+                        <h3>Muy Baja en Carbohidratos</h3>
+                        <p>20-50g netos por día</p>
+                    </div>
+                    <div class="info-card highlight">
+                        <div class="info-icon">🔥</div>
+                        <h3>Objetivo: Cetosis</h3>
+                        <p>Quemar grasa como combustible principal</p>
+                    </div>
+                </div>
+            </div>
+
+            <div class="section-card">
+                <h2 class="section-title">⚡ Ventajas de Combinar Keto + Ayuno</h2>
+                <div class="benefits-list">
+                    <div class="benefit-item">
+                        <span class="benefit-number">1</span>
+                        <div>
+                            <strong>Cetosis más rápida</strong>
+                            <p>El ayuno acelera la entrada en cetosis</p>
+                        </div>
+                    </div>
+                    <div class="benefit-item">
+                        <span class="benefit-number">2</span>
+                        <div>
+                            <strong>Mayor quema de grasa</strong>
+                            <p>Doble efecto metabólico</p>
+                        </div>
+                    </div>
+                    <div class="benefit-item">
+                        <span class="benefit-number">3</span>
+                        <div>
+                            <strong>Menos hambre</strong>
+                            <p>La cetosis reduce el apetito naturalmente</p>
+                        </div>
+                    </div>
+                    <div class="benefit-item">
+                        <span class="benefit-number">4</span>
+                        <div>
+                            <strong>Simplificación</strong>
+                            <p>Menos comidas = menos decisiones</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="section-card">
+                <h2 class="section-title">📊 Resumen Ejecutivo - Para Empezar</h2>
+                <div class="timeline">
+                    <div class="timeline-item">
+                        <div class="timeline-marker">1-2</div>
+                        <div class="timeline-content">
+                            <strong>Semana 1-2</strong>
+                            <p>Implementa ayuno 12/12 o 14/10</p>
+                        </div>
+                    </div>
+                    <div class="timeline-item">
+                        <div class="timeline-marker">2-3</div>
+                        <div class="timeline-content">
+                            <strong>Semana 2-3</strong>
+                            <p>Comienza con dieta keto gradualmente</p>
+                        </div>
+                    </div>
+                    <div class="timeline-item">
+                        <div class="timeline-marker">4+</div>
+                        <div class="timeline-content">
+                            <strong>Semana 4+</strong>
+                            <p>Combina 16/8 + Keto completo</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="section-card keys-card">
+                <h2 class="section-title">🎯 Claves del Éxito</h2>
+                <div class="keys-grid">
+                    <div class="key-item">💧 Hidrátate constantemente</div>
+                    <div class="key-item">🧂 Electrolitos (sal, potasio, magnesio)</div>
+                    <div class="key-item">🏋️ Actividad física regular</div>
+                    <div class="key-item">😴 Buen descanso</div>
+                    <div class="key-item">📏 Mide progreso (no solo peso)</div>
+                    <div class="key-item">🎯 Sé consistente, no perfecto</div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Section: Menú Semanal -->
+        <section class="content-section" id="section-menu">
+            <!-- Meal Progress -->
+            <div class="meal-progress-section">
+                <div class="progress-info">
+                    <span class="progress-text">Comidas realizadas esta semana</span>
+                    <span class="progress-count">
+                        <span id="mealCheckedCount">0</span> / <span id="mealTotalCount">28</span> comidas
+                    </span>
+                </div>
+                <div class="progress-bar">
+                    <div class="progress-fill" id="mealProgressFill"></div>
+                </div>
+                <div class="progress-percentage" id="mealProgressPercentage">0%</div>
+                <button class="reset-meals-btn" id="resetMealsBtn">Reiniciar semana</button>
+            </div>
+
+            <div class="section-card">
+                <h2 class="section-title">🍽️ Menú Semanal Completo <span class="click-hint">(Click en una comida para ver la receta)</span></h2>
+                <div class="menu-container" id="menuContainer">
+                    <!-- Menu will be rendered by JavaScript -->
+                </div>
+            </div>
+
+            <div class="section-card">
+                <h2 class="section-title">👨‍🍳 Recetas Destacadas</h2>
+                <div class="recipes-grid">
+                    <div class="recipe-card">
+                        <h3>🥘 Beef Stew Keto</h3>
+                        <p class="recipe-ingredients">Carne de res, apio, rábano, caldo de hueso</p>
+                        <div class="recipe-info">
+                            <span>≈ 275 calorías</span>
+                            <span>24g proteína</span>
+                        </div>
+                    </div>
+                    <div class="recipe-card">
+                        <h3>🥩 Ribeye con Mantequilla de Ajo</h3>
+                        <p class="recipe-ingredients">Acompañado de coles de Bruselas asadas</p>
+                        <div class="recipe-info">
+                            <span>Alta en grasa</span>
+                            <span>Baja en carbos</span>
+                        </div>
+                    </div>
+                    <div class="recipe-card">
+                        <h3>🍝 Fideos de Calabacín (Zoodles)</h3>
+                        <p class="recipe-ingredients">Usar espiralizador o pelador de verduras</p>
+                        <div class="recipe-info">
+                            <span>Salsa marinara sin azúcar</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="section-card">
+                <h2 class="section-title">💡 Consejos para Mantener la Cetosis</h2>
+                <div class="tips-list">
+                    <div class="tip-item">
+                        <span class="tip-icon">💧</span>
+                        <div>
+                            <strong>Hidratación</strong>
+                            <p>Aumenta agua y electrolitos (sodio, potasio, magnesio) para evitar "keto-flu"</p>
+                        </div>
+                    </div>
+                    <div class="tip-item">
+                        <span class="tip-icon">🏃</span>
+                        <div>
+                            <strong>Actividad física</strong>
+                            <p>Combina cardio moderado con ejercicios de fuerza</p>
+                        </div>
+                    </div>
+                    <div class="tip-item">
+                        <span class="tip-icon">👂</span>
+                        <div>
+                            <strong>Escucha tu cuerpo</strong>
+                            <p>Ajusta grasas y proteínas según hambre y saciedad</p>
+                        </div>
+                    </div>
+                    <div class="tip-item">
+                        <span class="tip-icon">📏</span>
+                        <div>
+                            <strong>Mide progreso</strong>
+                            <p>No solo peso - mide grasa corporal, cintura, bienestar general</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Section: Alimentos -->
+        <section class="content-section" id="section-alimentos">
+            <div class="section-card">
+                <h2 class="section-title">✅ Alimentos Permitidos</h2>
+                
+                <div class="food-category">
+                    <h3>🥩 Carnes y Proteínas</h3>
+                    <div class="food-tags">
+                        <span class="food-tag allowed">Res, cerdo, cordero, venado</span>
+                        <span class="food-tag allowed">Pollo, pavo</span>
+                        <span class="food-tag allowed">Salmón, sardinas, caballa, atún</span>
+                        <span class="food-tag allowed">Camarones, calamares, mejillones</span>
+                        <span class="food-tag allowed">Huevos enteros</span>
+                        <span class="food-tag allowed">Hígado, riñones, corazón</span>
+                    </div>
+                </div>
+
+                <div class="food-category">
+                    <h3>🫒 Grasas Saludables y Aceites</h3>
+                    <div class="food-tags">
+                        <span class="food-tag allowed">Aceite de oliva extra virgen</span>
+                        <span class="food-tag allowed">Aceite de coco / MCT</span>
+                        <span class="food-tag allowed">Aceite de aguacate</span>
+                        <span class="food-tag allowed">Mantequilla, ghee</span>
+                        <span class="food-tag allowed">Grasa de res, tocino (sin azúcar)</span>
+                    </div>
+                </div>
+
+                <div class="food-category">
+                    <h3>🧀 Lácteos</h3>
+                    <div class="food-tags">
+                        <span class="food-tag allowed">Quesos: cheddar, mozzarella, parmesano, azul, feta</span>
+                        <span class="food-tag allowed">Crema para batir / nata entera</span>
+                        <span class="food-tag allowed">Yogur griego sin azúcar</span>
+                        <span class="food-tag allowed">Requesón (con moderación)</span>
+                    </div>
+                </div>
+
+                <div class="food-category">
+                    <h3>🥬 Verduras Bajas en Carbohidratos</h3>
+                    <p class="food-note">< 5-8g carbohidratos netos por porción</p>
+                    <div class="food-tags">
+                        <span class="food-tag allowed">Espinaca, kale, acelga, lechuga</span>
+                        <span class="food-tag allowed">Brócoli, coliflor</span>
+                        <span class="food-tag allowed">Calabacín, pepino</span>
+                        <span class="food-tag allowed">Berenjena, pimientos</span>
+                        <span class="food-tag allowed">Espárragos, apio</span>
+                        <span class="food-tag allowed">Champiñones</span>
+                        <span class="food-tag allowed">Aguacate</span>
+                        <span class="food-tag allowed">Aceitunas</span>
+                    </div>
+                </div>
+
+                <div class="food-category">
+                    <h3>🥜 Frutos Secos y Semillas</h3>
+                    <div class="food-tags">
+                        <span class="food-tag allowed">Almendras, macadamia, pecanas, nueces de Brasil</span>
+                        <span class="food-tag allowed">Semillas: chía, lino, girasol, calabaza</span>
+                        <span class="food-tag allowed">Harina de almendra, de coco</span>
+                        <span class="food-tag allowed">Mantequilla de almendra, maní (sin azúcar)</span>
+                    </div>
+                </div>
+
+                <div class="food-category">
+                    <h3>🍓 Frutas (en moderación)</h3>
+                    <div class="food-tags">
+                        <span class="food-tag allowed">Frambuesas, moras, fresas</span>
+                        <span class="food-tag allowed">Arándanos (moderadamente)</span>
+                        <span class="food-tag allowed">Aguacate</span>
+                        <span class="food-tag allowed">Aceitunas</span>
+                    </div>
+                </div>
+
+                <div class="food-category">
+                    <h3>☕ Bebidas</h3>
+                    <div class="food-tags">
+                        <span class="food-tag allowed">Agua (natural, con gas)</span>
+                        <span class="food-tag allowed">Café y té sin azúcar</span>
+                        <span class="food-tag allowed">Caldo de huesos</span>
+                        <span class="food-tag allowed">Leche de almendra/coco sin azúcar</span>
+                    </div>
+                </div>
+
+                <div class="food-category">
+                    <h3>🧂 Condimentos y Endulzantes</h3>
+                    <div class="food-tags">
+                        <span class="food-tag allowed">Mostaza, vinagre de manzana</span>
+                        <span class="food-tag allowed">Hierbas y especias</span>
+                        <span class="food-tag allowed">Salsa picante (sin azúcar)</span>
+                        <span class="food-tag allowed">Mayonesa keto</span>
+                        <span class="food-tag allowed">Stevia, eritritol, monk fruit</span>
+                        <span class="food-tag allowed">Chocolate oscuro ≥70% cacao</span>
+                    </div>
+                </div>
+            </div>
+
+            <div class="section-card avoid-card">
+                <h2 class="section-title">⛔ Alimentos a EVITAR</h2>
+                <div class="food-tags">
+                    <span class="food-tag forbidden">Azúcar, miel, jarabe de maple</span>
+                    <span class="food-tag forbidden">Pan, pasta, arroz, cereales</span>
+                    <span class="food-tag forbidden">Papas, batatas, maíz</span>
+                    <span class="food-tag forbidden">Legumbres (frijoles, lentejas)</span>
+                    <span class="food-tag forbidden">Frutas altas en azúcar (banana, uva, mango)</span>
+                    <span class="food-tag forbidden">Jugos, refrescos, bebidas azucaradas</span>
+                    <span class="food-tag forbidden">Productos "light" o "bajos en grasa"</span>
+                </div>
+            </div>
+        </section>
+
+        <!-- Section: Ayuno -->
+        <section class="content-section" id="section-ayuno">
+            <div class="section-card">
+                <h2 class="section-title">⏱️ Protocolos de Ayuno Intermitente</h2>
+                <div class="protocols-grid">
+                    <div class="protocol-card beginner">
+                        <div class="protocol-header">
+                            <span class="protocol-name">12/12</span>
+                            <span class="protocol-level">Principiante</span>
+                        </div>
+                        <p>12 horas ayuno, 12 horas comida</p>
+                    </div>
+                    <div class="protocol-card intermediate">
+                        <div class="protocol-header">
+                            <span class="protocol-name">14/10</span>
+                            <span class="protocol-level">Intermedio</span>
+                        </div>
+                        <p>14 horas ayuno, 10 horas comida</p>
+                    </div>
+                    <div class="protocol-card popular">
+                        <div class="protocol-header">
+                            <span class="protocol-name">16/8</span>
+                            <span class="protocol-level">Popular/Efectivo</span>
+                        </div>
+                        <p>16 horas ayuno, 8 horas comida</p>
+                    </div>
+                    <div class="protocol-card alternative">
+                        <div class="protocol-header">
+                            <span class="protocol-name">5:2</span>
+                            <span class="protocol-level">Alternativo</span>
+                        </div>
+                        <p>5 días normal, 2 días 500-600 calorías</p>
+                    </div>
+                </div>
+            </div>
+
+            <div class="section-card">
+                <h2 class="section-title">📅 Plan de Implementación Gradual</h2>
+                <div class="implementation-plan">
+                    <div class="plan-week">
+                        <div class="week-header">Semana 1</div>
+                        <div class="week-protocol">12/12</div>
+                        <div class="week-schedule">Cena 7-8 PM / Desayuno 7-8 AM</div>
+                        <div class="week-action">Deja de picar en la noche. Registra tus horarios actuales.</div>
+                    </div>
+                    <div class="plan-week">
+                        <div class="week-header">Semana 2</div>
+                        <div class="week-protocol">14/10</div>
+                        <div class="week-schedule">Cena 8 PM / Primera comida 10-11 AM</div>
+                        <div class="week-action">Retrasa el desayuno. Mantén cenas ligeras. Hidrátate bien.</div>
+                    </div>
+                    <div class="plan-week">
+                        <div class="week-header">Semanas 3-4</div>
+                        <div class="week-protocol">16/8</div>
+                        <div class="week-schedule">Ventana: 12 PM - 8 PM</div>
+                        <div class="week-action">Ajusta ventana de alimentación. Incluye 2-3 comidas completas.</div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="section-card">
+                <h2 class="section-title">🕐 Ejemplo de Rutina Diaria 16/8</h2>
+                <div class="daily-routine">
+                    <div class="routine-item fasting">
+                        <div class="routine-time">8:00 AM - 12:00 PM</div>
+                        <div class="routine-label">Período de Ayuno 🌅</div>
+                        <div class="routine-allowed">✅ Permitido: Agua, café solo, té sin azúcar</div>
+                        <div class="routine-forbidden">❌ Evitar: Cualquier cosa con calorías</div>
+                    </div>
+                    <div class="routine-item eating">
+                        <div class="routine-time">12:00 PM</div>
+                        <div class="routine-label">Primera Comida (Almuerzo) 🍽️</div>
+                        <div class="routine-desc">Comida completa: proteína + vegetales + grasas saludables</div>
+                        <div class="routine-example">Ejemplo: Ensalada de pollo con aguacate y aceite de oliva</div>
+                    </div>
+                    <div class="routine-item snack">
+                        <div class="routine-time">4:00 PM</div>
+                        <div class="routine-label">Snack (Opcional) 🥜</div>
+                        <div class="routine-desc">Puñado de nueces, queso, aceitunas</div>
+                    </div>
+                    <div class="routine-item eating">
+                        <div class="routine-time">7:30 - 8:00 PM</div>
+                        <div class="routine-label">Cena 🍽️</div>
+                        <div class="routine-desc">Nutritiva, baja en azúcar y procesados</div>
+                        <div class="routine-example">Ejemplo: Salmón con espárragos</div>
+                    </div>
+                    <div class="routine-item fasting">
+                        <div class="routine-time">Después de Cena</div>
+                        <div class="routine-label">Comienza Ayuno 🌙</div>
+                        <div class="routine-desc">Hasta el mediodía del día siguiente</div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="section-card">
+                <h2 class="section-title">🕐 Protocolo 16/8 + Keto Combinado</h2>
+                <div class="combined-protocol">
+                    <div class="combined-item">
+                        <span class="combined-time">12:00 PM</span>
+                        <span class="combined-desc">Primera comida keto (almuerzo del menú semanal)</span>
+                    </div>
+                    <div class="combined-item">
+                        <span class="combined-time">4:00 PM</span>
+                        <span class="combined-desc">Snack keto (opcional)</span>
+                    </div>
+                    <div class="combined-item">
+                        <span class="combined-time">8:00 PM</span>
+                        <span class="combined-desc">Cena keto</span>
+                    </div>
+                    <div class="combined-item fasting">
+                        <span class="combined-time">8 PM - 12 PM</span>
+                        <span class="combined-desc">Ayuno (solo agua, café, té)</span>
+                    </div>
+                </div>
+            </div>
+
+            <div class="section-card warning-card">
+                <h2 class="section-title">⚠️ Cuándo Evitar o Consultar Profesional</h2>
+                <p class="warning-intro"><strong>NO recomendado para:</strong></p>
+                <ul class="warning-list">
+                    <li>Embarazadas o en lactancia</li>
+                    <li>Menores de edad</li>
+                    <li>Historial de trastornos alimenticios</li>
+                    <li>Diabetes tipo 1 (sin supervisión)</li>
+                    <li>Medicamentos que requieren alimentación constante</li>
+                    <li>Bajo peso o baja energía persistente</li>
+                </ul>
+                <p class="warning-note">⚕️ <strong>Siempre consulta a tu médico antes de comenzar.</strong></p>
+            </div>
+        </section>
+
+        <!-- Section: Lista de Compras -->
+        <section class="content-section" id="section-compras">
+            <!-- Progress Bar -->
+            <div class="progress-section">
+                <div class="progress-info">
+                    <span class="progress-text">Progreso de compras</span>
+                    <span class="progress-count">
+                        <span id="checkedCount">0</span> / <span id="totalCount">0</span> productos
+                    </span>
+                </div>
+                <div class="progress-bar">
+                    <div class="progress-fill" id="progressFill"></div>
+                </div>
+                <div class="progress-percentage" id="progressPercentage">0%</div>
+            </div>
+
+            <!-- Controls -->
+            <div class="controls">
+                <div class="search-box">
+                    <svg class="search-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                        <circle cx="11" cy="11" r="8"></circle>
+                        <path d="m21 21-4.35-4.35"></path>
+                    </svg>
+                    <input type="text" id="searchInput" placeholder="Buscar producto..." class="search-input">
+                    <button class="clear-search" id="clearSearch" title="Limpiar búsqueda">×</button>
+                </div>
+                
+                <div class="filter-buttons">
+                    <button class="filter-btn active" data-filter="all">Todos</button>
+                    <button class="filter-btn" data-filter="pending">Pendientes</button>
+                    <button class="filter-btn" data-filter="completed">Comprados</button>
+                </div>
+
+                <button class="reset-btn" id="resetBtn" title="Reiniciar lista">
+                    <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                        <path d="M3 12a9 9 0 1 0 9-9 9.75 9.75 0 0 0-6.74 2.74L3 8"></path>
+                        <path d="M3 3v5h5"></path>
+                    </svg>
+                    Reiniciar
+                </button>
+            </div>
+
+            <!-- Category Filter Pills -->
+            <div class="category-pills" id="categoryPills">
+                <button class="pill active" data-category="all">Todas las categorías</button>
+            </div>
+
+            <!-- Shopping List -->
+            <div class="shopping-list" id="shoppingList">
+                <!-- Categories will be injected here -->
+            </div>
+
+            <!-- Cost Summary -->
+            <div class="cost-summary">
+                <h3>💰 Resumen de Costos Estimados (USD)</h3>
+                <div class="cost-grid">
+                    <div class="cost-item">
+                        <span class="cost-label">Carnes y proteínas</span>
+                        <span class="cost-value">$120-180</span>
+                    </div>
+                    <div class="cost-item">
+                        <span class="cost-label">Lácteos</span>
+                        <span class="cost-value">$40-60</span>
+                    </div>
+                    <div class="cost-item">
+                        <span class="cost-label">Verduras y frutas</span>
+                        <span class="cost-value">$60-80</span>
+                    </div>
+                    <div class="cost-item">
+                        <span class="cost-label">Frutos secos y semillas</span>
+                        <span class="cost-value">$40-50</span>
+                    </div>
+                    <div class="cost-item">
+                        <span class="cost-label">Aceites y grasas</span>
+                        <span class="cost-value">$25-35</span>
+                    </div>
+                    <div class="cost-item">
+                        <span class="cost-label">Despensa keto</span>
+                        <span class="cost-value">$30-40</span>
+                    </div>
+                    <div class="cost-item total">
+                        <span class="cost-label">TOTAL APROXIMADO</span>
+                        <span class="cost-value">$315-445/mes</span>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Section: Tips -->
+        <section class="content-section" id="section-tips">
+            <div class="section-card">
+                <h2 class="section-title">💧 Tips para Principiantes - Hidratación</h2>
+                <div class="tips-grid">
+                    <div class="tip-card">
+                        <span class="tip-emoji">💧</span>
+                        <p>Agua abundante</p>
+                    </div>
+                    <div class="tip-card">
+                        <span class="tip-emoji">🍵</span>
+                        <p>Té sin azúcar</p>
+                    </div>
+                    <div class="tip-card">
+                        <span class="tip-emoji">☕</span>
+                        <p>Café negro</p>
+                    </div>
+                    <div class="tip-card warning">
+                        <span class="tip-emoji">⚠️</span>
+                        <p>Evita calorías durante el ayuno</p>
+                    </div>
+                </div>
+            </div>
+
+            <div class="section-card">
+                <h2 class="section-title">🥗 Alimentación Equilibrada</h2>
+                <div class="tips-grid">
+                    <div class="tip-card">
+                        <span class="tip-emoji">🥩</span>
+                        <p>Proteínas de calidad</p>
+                    </div>
+                    <div class="tip-card">
+                        <span class="tip-emoji">🥑</span>
+                        <p>Grasas saludables</p>
+                    </div>
+                    <div class="tip-card">
+                        <span class="tip-emoji">🥬</span>
+                        <p>Fibra vegetal</p>
+                    </div>
+                    <div class="tip-card warning">
+                        <span class="tip-emoji">🚫</span>
+                        <p>Evita ultraprocesados</p>
+                    </div>
+                </div>
+            </div>
+
+            <div class="section-card">
+                <h2 class="section-title">🏋️ Adaptación Física & Mental</h2>
+                <div class="adaptation-info">
+                    <div class="adaptation-item">
+                        <span class="adaptation-icon">⏰</span>
+                        <p><strong>Primeros 3-7 días:</strong> Posible hambre, fatiga, baja concentración (es normal)</p>
+                    </div>
+                    <div class="adaptation-item">
+                        <span class="adaptation-icon">🚶</span>
+                        <p><strong>Ejercicio:</strong> Ligero al principio, intensificar cuando el cuerpo se adapte</p>
+                    </div>
+                </div>
+            </div>
+
+            <div class="section-card">
+                <h2 class="section-title">🔄 Flexibilidad</h2>
+                <div class="flexibility-tips">
+                    <div class="flex-tip">
+                        <span>📅</span>
+                        <p>Ajusta horarios según eventos sociales</p>
+                    </div>
+                    <div class="flex-tip">
+                        <span>🎯</span>
+                        <p>La consistencia es más importante que la perfección</p>
+                    </div>
+                    <div class="flex-tip">
+                        <span>👂</span>
+                        <p>Escucha a tu cuerpo</p>
+                    </div>
+                </div>
+            </div>
+
+            <div class="section-card">
+                <h2 class="section-title">💰 Tips para Ahorrar</h2>
+                <div class="save-tips">
+                    <div class="save-tip">
+                        <span class="save-number">1</span>
+                        <div>
+                            <strong>Compra al mayoreo</strong>
+                            <p>Carnes, frutos secos, aceites</p>
+                        </div>
+                    </div>
+                    <div class="save-tip">
+                        <span class="save-number">2</span>
+                        <div>
+                            <strong>Congela porciones</strong>
+                            <p>Divide carnes y pescados en porciones individuales</p>
+                        </div>
+                    </div>
+                    <div class="save-tip">
+                        <span class="save-number">3</span>
+                        <div>
+                            <strong>Productos de temporada</strong>
+                            <p>Verduras más baratas</p>
+                        </div>
+                    </div>
+                    <div class="save-tip">
+                        <span class="save-number">4</span>
+                        <div>
+                            <strong>Marcas genéricas</strong>
+                            <p>Para especias, harinas alternativas</p>
+                        </div>
+                    </div>
+                    <div class="save-tip">
+                        <span class="save-number">5</span>
+                        <div>
+                            <strong>Mercados locales</strong>
+                            <p>Huevos, aguacates, verduras frescas</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="section-card">
+                <h2 class="section-title">✅ Checklist de Compra</h2>
+                <div class="checklist-container">
+                    <div class="checklist-column">
+                        <h3>🗓️ Semanalmente</h3>
+                        <ul>
+                            <li>Verduras frescas de hoja verde</li>
+                            <li>Aguacates</li>
+                            <li>Carnes/pescados frescos (para la semana)</li>
+                            <li>Huevos</li>
+                            <li>Bayas frescas</li>
+                        </ul>
+                    </div>
+                    <div class="checklist-column">
+                        <h3>📅 Quincenal/Mensual</h3>
+                        <ul>
+                            <li>Carnes congeladas</li>
+                            <li>Frutos secos</li>
+                            <li>Lácteos (quesos duran más)</li>
+                            <li>Aceites</li>
+                            <li>Despensa keto</li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+
+            <div class="section-card portions-card">
+                <h2 class="section-title">📐 Cálculos y Porciones Estimadas</h2>
+                <div class="portions-grid">
+                    <div class="portion-item">
+                        <h4>🥩 Proteínas por día</h4>
+                        <ul>
+                            <li><strong>150-200g</strong> de carne/pescado/pollo por comida principal</li>
+                            <li><strong>3 huevos</strong> en desayuno</li>
+                            <li>Total: ~120-150g de proteína pura/día</li>
+                        </ul>
+                    </div>
+                    <div class="portion-item">
+                        <h4>🥑 Grasas por día</h4>
+                        <ul>
+                            <li><strong>30-50 ml</strong> de aceite para cocinar</li>
+                            <li><strong>1 aguacate</strong></li>
+                            <li><strong>30-50g</strong> de frutos secos</li>
+                            <li>+ Mantequilla, queso, crema en comidas</li>
+                        </ul>
+                    </div>
+                    <div class="portion-item highlight">
+                        <h4>🥬 Carbohidratos netos</h4>
+                        <p><strong>20-30g/día</strong> provenientes principalmente de verduras</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Footer -->
+        <footer class="footer">
+            <p>📋 Guía Completa: Dieta Keto + Ayuno Intermitente</p>
+            <p class="footer-note">Los datos de la lista de compras se guardan automáticamente en tu navegador</p>
+            <p class="footer-date">Documento creado: Enero 2026</p>
+        </footer>
+    </div>
+
+    <!-- Recipe Modal -->
+    <div class="modal-overlay" id="recipeModal">
+        <div class="modal-content">
+            <button class="modal-close" id="modalClose">&times;</button>
+            <div class="modal-header">
+                <h2 id="modalTitle">Nombre de la Receta</h2>
+                <div class="modal-meta" id="modalMeta"></div>
+            </div>
+            <div class="modal-body">
+                <div class="modal-section">
+                    <h3>📝 Ingredientes</h3>
+                    <ul id="modalIngredients"></ul>
+                </div>
+                <div class="modal-section">
+                    <h3>👨‍🍳 Preparación</h3>
+                    <ol id="modalSteps"></ol>
+                </div>
+            </div>
+            <div class="modal-footer">
+                <label class="meal-done-checkbox">
+                    <input type="checkbox" id="modalMealDone">
+                    <span class="checkmark-modal">
+                        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="3">
+                            <path d="M20 6L9 17l-5-5"/>
+                        </svg>
+                    </span>
+                    <span class="checkbox-label">Marcar comida como realizada</span>
+                </label>
+            </div>
+        </div>
+    </div>
+
+    <!-- Toast Notification -->
+    <div class="toast" id="toast"></div>
+
+    <script src="js/app.js"></script>
+</body>
+</html>

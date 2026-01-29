@@ -19,6 +19,11 @@ guarda el progreso en `localStorage`.
 2. Navega por las secciones y marca comidas o productos completados.
 3. El progreso se guarda automaticamente en el navegador.
 
+## GitHub Pages
+
+Configura GitHub Pages para publicar desde `main` / `(root)`. El sitio
+se sirve desde `index.html` en la raiz del repositorio.
+
 ## Estructura del proyecto
 
 - `index.html`: estructura y contenido principal.
