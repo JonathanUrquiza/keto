@@ -649,213 +649,165 @@ const recipesData = {
     }
 };
 
-// Weekly Menu Data
+// Weekly Menu Data - Dieta sin TACC (4 comidas: desayuno, almuerzo, merienda, cena)
 const weeklyMenu = [
     {
         day: "Lunes",
         meals: [
-            { type: "desayuno", icon: "🌅", name: "Muffins de huevo con aguacate y tocino", recipeId: "muffins-huevo" },
-            { type: "almuerzo", icon: "🍽️", name: "Ensalada de pollo a la parrilla", recipeId: "ensalada-pollo" },
-            { type: "cena", icon: "🌙", name: "Fideos de calabacín con albóndigas", recipeId: "zoodles-albondigas" },
-            { type: "snack", icon: "🥜", name: "Bastones de queso + almendras", recipeId: "bastones-queso" }
+            { type: "desayuno", icon: "🌅", name: "Infusión + licuado de frutas (durazno) o manzana sin piel", recipeId: null },
+            { type: "almuerzo", icon: "🍽️", name: "Caldo + Pechuga pollo plancha + Ensalada cruda + Zapallito hervido", recipeId: null },
+            { type: "merienda", icon: "🥜", name: "Infusión + 1 pera sin piel", recipeId: null },
+            { type: "cena", icon: "🌙", name: "Caldo + Pescado al horno + Acelga hervida + Ensalada chaucha y tomate", recipeId: null }
         ]
     },
     {
         day: "Martes",
         meals: [
-            { type: "desayuno", icon: "🌅", name: "Tortilla de espinacas y queso feta", recipeId: "tortilla-espinacas" },
-            { type: "almuerzo", icon: "🍽️", name: "Roll-ups de lechuga con ensalada de atún", recipeId: "rollups-atun" },
-            { type: "cena", icon: "🌙", name: "Salmón al horno con espárragos al limón", recipeId: "salmon-esparragos" },
-            { type: "snack", icon: "🥜", name: "Apio con mantequilla de almendra", recipeId: "apio-almendra" }
+            { type: "desayuno", icon: "🌅", name: "Café con leche descremada o capuccino light + 1 fruta", recipeId: null },
+            { type: "almuerzo", icon: "🍽️", name: "Caldo + Carne magra plancha + Ensalada cruda + Calabaza al horno", recipeId: null },
+            { type: "merienda", icon: "🥜", name: "Mate + queso untable descremado con bastones de apio", recipeId: null },
+            { type: "cena", icon: "🌙", name: "Caldo + Pollo sin piel al horno con espárragos + Ensalada berenjena y tomate", recipeId: null }
         ]
     },
     {
         day: "Miércoles",
         meals: [
-            { type: "desayuno", icon: "🌅", name: "Pancakes keto de almendra con frutos rojos", recipeId: "pancakes-keto" },
-            { type: "almuerzo", icon: "🍽️", name: "Salteado de carne con arroz de coliflor", recipeId: "salteado-carne" },
-            { type: "cena", icon: "🌙", name: "Chuletas de cerdo con mantequilla de ajo", recipeId: "chuletas-cerdo" },
-            { type: "snack", icon: "🥜", name: "Yogur griego con semillas de chía", recipeId: "yogur-chia" }
+            { type: "desayuno", icon: "🌅", name: "Licuado detox o infusión + 1 fruta permitida", recipeId: null },
+            { type: "almuerzo", icon: "🍽️", name: "Caldo + Merluza al vapor + Ensalada cruda + Espinaca hervida", recipeId: null },
+            { type: "merienda", icon: "🥜", name: "Infusión + yogur descremado o gelatina diet", recipeId: null },
+            { type: "cena", icon: "🌙", name: "Caldo + Lomo de cerdo plancha + Zapallo hervido + Ensalada cruda", recipeId: null }
         ]
     },
     {
         day: "Jueves",
         meals: [
-            { type: "desayuno", icon: "🌅", name: "Pudding de chía con leche de coco", recipeId: "pudding-chia" },
-            { type: "almuerzo", icon: "🍽️", name: "Ensalada de pavo y aguacate", recipeId: "ensalada-pavo" },
-            { type: "cena", icon: "🌙", name: "Camarones a la parrilla con calabacines", recipeId: "camarones-calabacin" },
-            { type: "snack", icon: "🥜", name: "Aceitunas y rodajas de pepperoni", recipeId: "aceitunas-pepperoni" }
+            { type: "desayuno", icon: "🌅", name: "Infusión + licuado (½ banana o manzana + agua)", recipeId: null },
+            { type: "almuerzo", icon: "🍽️", name: "Caldo + Pollo con salsa fileto light + Ensalada + Chaucha hervida", recipeId: null },
+            { type: "merienda", icon: "🥜", name: "Infusión + 1 fruta (ciruela o damasco sin piel)", recipeId: null },
+            { type: "cena", icon: "🌙", name: "Caldo + Carne magra con salsa bolognesa light + Ensalada + Calabacín al horno", recipeId: null }
         ]
     },
     {
         day: "Viernes",
         meals: [
-            { type: "desayuno", icon: "🌅", name: "Huevos revueltos con queso y tomates", recipeId: "huevos-revueltos" },
-            { type: "almuerzo", icon: "🍽️", name: "Ensalada Cobb con tocino y queso azul", recipeId: "ensalada-cobb" },
-            { type: "cena", icon: "🌙", name: "Curry de pollo con arroz de coliflor", recipeId: "curry-pollo" },
-            { type: "snack", icon: "🥜", name: "Mix de nueces y semillas", recipeId: "mix-nueces" }
+            { type: "desayuno", icon: "🌅", name: "Café o té + 1 fruta. Opción: 2 claras revueltas con verduras", recipeId: null },
+            { type: "almuerzo", icon: "🍽️", name: "Caldo + Pescado a la plancha + Ensalada cruda + Espárragos hervidos", recipeId: null },
+            { type: "merienda", icon: "🥜", name: "Mate + postre light o 1 fruta", recipeId: null },
+            { type: "cena", icon: "🌙", name: "Caldo + Harinas 1x/sem: 2 empanadas o tarta sin TACC + Ensalada cruda", recipeId: null }
         ]
     },
     {
         day: "Sábado",
         meals: [
-            { type: "desayuno", icon: "🌅", name: "Batido keto de espinaca", recipeId: "batido-keto" },
-            { type: "almuerzo", icon: "🍽️", name: "Roll-ups de salmón ahumado", recipeId: "rollups-salmon" },
-            { type: "cena", icon: "🌙", name: "Entrecot con mantequilla de ajo y coles", recipeId: "entrecot-coles" },
-            { type: "snack", icon: "🥜", name: "Fat bomb de chocolate", recipeId: "fat-bomb" }
+            { type: "desayuno", icon: "🌅", name: "Licuado de frutas (manzana + agua) o infusión + 1 fruta", recipeId: null },
+            { type: "almuerzo", icon: "🍽️", name: "Caldo + Pollo con salsa italiana light + Ensalada + Hongos salteados", recipeId: null },
+            { type: "merienda", icon: "🥜", name: "Infusión + queso untable con bastones de apio/zanahoria", recipeId: null },
+            { type: "cena", icon: "🌙", name: "Caldo + Milanesa al horno (1x/sem, sin TACC) + Ensalada cruda + Tomate", recipeId: null }
         ]
     },
     {
         day: "Domingo",
         meals: [
-            { type: "desayuno", icon: "🌅", name: "Café cetogénico + nueces", recipeId: "cafe-cetogenico" },
-            { type: "almuerzo", icon: "🍽️", name: "Ensalada de pollo con aderezo de limón", recipeId: "ensalada-pollo-limon" },
-            { type: "cena", icon: "🌙", name: "Pollo al horno con crema de champiñones", recipeId: "pollo-champinones" },
-            { type: "snack", icon: "🥜", name: "Helado keto o mousse de chocolate", recipeId: "mousse-chocolate" }
+            { type: "desayuno", icon: "🌅", name: "Capuccino light o infusión + durazno o pera sin piel", recipeId: null },
+            { type: "almuerzo", icon: "🍽️", name: "Caldo + Carne magra a la parrilla + Ensalada abundante + Puerro y calabaza", recipeId: null },
+            { type: "merienda", icon: "🥜", name: "Infusión + 1 vaso leche descremada o 1 yogur descremado", recipeId: null },
+            { type: "cena", icon: "🌙", name: "Caldo + Pescado al horno con limón y hierbas + Acelga y espinaca + Ensalada", recipeId: null }
         ]
     }
 ];
 
 // ========================================
-// Data - Lista de Compras Keto
+// Data - Lista de Compras Dieta sin TACC (según menú semanal)
 // ========================================
 const shoppingData = [
     {
         id: "carnes",
-        name: "Carnes y Proteínas",
+        name: "Carnes y Pescado (magros)",
         icon: "🥩",
         items: [
-            { name: "Huevos grandes", quantity: "60-72 unidades", notes: "~15-18 por semana" },
-            { name: "Pollo (pechugas)", quantity: "2 kg", notes: "Para ensaladas y platos principales" },
-            { name: "Pollo (muslos con piel)", quantity: "1.5 kg", notes: "Más grasa, mejor para keto" },
-            { name: "Carne molida de res (80-85% magra)", quantity: "2 kg", notes: "Para albóndigas, rellenos" },
-            { name: "Bistec/Entrecot", quantity: "1.5 kg", notes: "Cortes para parrilla" },
-            { name: "Chuletas de cerdo", quantity: "1.2 kg", notes: "~8-10 chuletas" },
-            { name: "Tocino/Panceta", quantity: "800 g", notes: "Sin azúcar agregada" },
-            { name: "Salmón fresco", quantity: "1.2 kg", notes: "~8-10 filetes" },
-            { name: "Atún enlatado (en agua/aceite)", quantity: "6 latas", notes: "Para ensaladas rápidas" },
-            { name: "Camarones", quantity: "800 g", notes: "Frescos o congelados" },
-            { name: "Pavo (pechuga en lonjas)", quantity: "500 g", notes: "Para roll-ups" },
-            { name: "Salmón ahumado", quantity: "300 g", notes: "Para desayunos" },
-            { name: "Pepperoni/Salami", quantity: "250 g", notes: "Snacks" }
+            { name: "Pechuga de pollo", quantity: "para 3-4 comidas", notes: "Sin piel; plancha/horno" },
+            { name: "Carne magra (lomo, peceto, cuadril)", quantity: "para 3-4 comidas", notes: "Porción palma de mano/día" },
+            { name: "Lomo de cerdo", quantity: "1 porción", notes: "Solo lomo" },
+            { name: "Pescado (merluza, etc.)", quantity: "para 3-4 comidas", notes: "De mar; enlatado al agua si aplica" },
+            { name: "Huevos", quantity: "1 docena", notes: "2 claras/día; entero máx. 2/semana" },
+            { name: "Carne para milanesa (1x/sem)", quantity: "1 porción", notes: "Al horno, empanado sin TACC" }
         ]
     },
     {
         id: "lacteos",
-        name: "Lácteos y Derivados",
+        name: "Lácteos descremados",
         icon: "🧀",
         items: [
-            { name: "Queso cheddar", quantity: "600 g", notes: "En bloques o rallado" },
-            { name: "Queso mozzarella", quantity: "500 g", notes: "Fresco o rallado" },
-            { name: "Queso feta", quantity: "400 g", notes: "Para ensaladas" },
-            { name: "Queso azul", quantity: "200 g", notes: "Para aderezos" },
-            { name: "Queso crema", quantity: "400 g", notes: "Philadelphia o similar" },
-            { name: "Queso parmesano", quantity: "300 g", notes: "Rallado o en bloque" },
-            { name: "Mantequilla sin sal", quantity: "750 g", notes: "~3 barras" },
-            { name: "Crema para batir (35-40% grasa)", quantity: "1 litro", notes: "Heavy cream" },
-            { name: "Yogur griego entero sin azúcar", quantity: "4 envases (500g c/u)", notes: "2 litros total" }
+            { name: "Leche descremada", quantity: "1 litro", notes: "1 vaso = 1 yogur = 1 pote postre" },
+            { name: "Yogur descremado sin azúcar", quantity: "4-6 potes", notes: "Meriendas y postres" },
+            { name: "Queso untable descremado sin sal", quantity: "2-3 unidades", notes: "Porción cassette o 2 cda; no queso duro" },
+            { name: "Postres light/diet (Ser, Cormillot, Nestlé)", quantity: "a gusto", notes: "Gelatina diet, etc." }
         ]
     },
     {
         id: "verduras",
-        name: "Verduras y Vegetales",
+        name: "Verduras (sin papa, batata, mandioca)",
         icon: "🥬",
         items: [
-            { name: "Espinacas frescas", quantity: "1.5 kg", notes: "Para tortillas, batidos, ensaladas" },
-            { name: "Lechuga romana/mixta", quantity: "4-5 cabezas", notes: "Base de ensaladas" },
-            { name: "Aguacates", quantity: "16-20 unidades", notes: "~4-5 por semana" },
-            { name: "Calabacín", quantity: "2 kg", notes: "Para 'zoodles' y salteados" },
-            { name: "Brócoli", quantity: "1.5 kg", notes: "Fresco o congelado" },
-            { name: "Coliflor", quantity: "2 kg", notes: "Para 'arroz' de coliflor" },
-            { name: "Espárragos", quantity: "1 kg", notes: "~4 manojos" },
-            { name: "Judías verdes/Ejotes", quantity: "800 g", notes: "Guarniciones" },
-            { name: "Coles de Bruselas", quantity: "600 g", notes: "Para asar" },
-            { name: "Champiñones", quantity: "500 g", notes: "Para salsas y salteados" },
-            { name: "Tomates cherry", quantity: "500 g", notes: "Con moderación" },
-            { name: "Pimientos (rojo, verde, amarillo)", quantity: "6-8 unidades", notes: "Para salteados" },
-            { name: "Apio", quantity: "1 atado", notes: "Snacks con mantequilla de nueces" },
-            { name: "Pepino", quantity: "4 unidades", notes: "Snacks, ensaladas" },
-            { name: "Hojas de kale", quantity: "500 g", notes: "Para chips o ensaladas" }
-        ]
-    },
-    {
-        id: "frutos-secos",
-        name: "Frutos Secos y Semillas",
-        icon: "🥜",
-        items: [
-            { name: "Almendras crudas", quantity: "400 g", notes: "Snacks" },
-            { name: "Nueces de macadamia", quantity: "300 g", notes: "Altas en grasa" },
-            { name: "Nueces pecanas", quantity: "300 g", notes: "Para ensaladas" },
-            { name: "Nueces de Brasil", quantity: "150 g", notes: "Alto en selenio" },
-            { name: "Mix de semillas", quantity: "200 g", notes: "Girasol, calabaza" },
-            { name: "Semillas de chía", quantity: "200 g", notes: "Puddings" },
-            { name: "Semillas de lino molidas", quantity: "150 g", notes: "Para batidos" },
-            { name: "Mantequilla de almendra", quantity: "1 frasco (350g)", notes: "Sin azúcar" },
-            { name: "Mantequilla de maní natural", quantity: "1 frasco (350g)", notes: "Sin azúcar añadida" }
-        ]
-    },
-    {
-        id: "grasas",
-        name: "Grasas y Aceites",
-        icon: "🫒",
-        items: [
-            { name: "Aceite de oliva extra virgen", quantity: "750 ml - 1 litro", notes: "Para cocinar y aderezos" },
-            { name: "Aceite de coco", quantity: "500 ml", notes: "Para cocinar" },
-            { name: "Aceite MCT", quantity: "250 ml (opcional)", notes: "Para café cetogénico" },
-            { name: "Aceite de aguacate", quantity: "250 ml (opcional)", notes: "Alta temperatura" },
-            { name: "Aceitunas verdes/negras", quantity: "400 g", notes: "Snacks" }
+            { name: "Lechuga romana/mixta", quantity: "4-5 cabezas", notes: "Base ensaladas" },
+            { name: "Tomate", quantity: "1 kg", notes: "Sin piel/semillas en cocidos" },
+            { name: "Pepino", quantity: "4-6 unidades", notes: "Sin piel" },
+            { name: "Zanahoria", quantity: "1 kg", notes: "Ensaladas y caldos" },
+            { name: "Zapallito", quantity: "1 kg", notes: "Sin piel" },
+            { name: "Calabaza", quantity: "1 unidad", notes: "Sin piel" },
+            { name: "Espinaca", quantity: "500 g", notes: "Ensaladas y hervida" },
+            { name: "Acelga", quantity: "2 atados", notes: "Hervida" },
+            { name: "Espárragos", quantity: "2 manojos", notes: "Hervidos" },
+            { name: "Berenjena", quantity: "2-3 unidades", notes: "Sin piel" },
+            { name: "Chaucha (judías verdes)", quantity: "500 g", notes: "" },
+            { name: "Apio", quantity: "1 atado", notes: "Bastones merienda; caldo" },
+            { name: "Puerro", quantity: "2-3 unidades", notes: "Poco" },
+            { name: "Remolacha", quantity: "2-3 unidades", notes: "Ensaladas" },
+            { name: "Champiñones / hongos", quantity: "300 g", notes: "Salsas y salteados" },
+            { name: "Palta", quantity: "1 unidad", notes: "Solo 1 por semana" },
+            { name: "Ají", quantity: "2-3", notes: "Sin semillas" },
+            { name: "Cebolla", quantity: "1 kg", notes: "Salsas y caldos" }
         ]
     },
     {
         id: "frutas",
-        name: "Frutas Bajas en Carbohidratos",
+        name: "Frutas (sin piel ni semillas)",
         icon: "🍓",
         items: [
-            { name: "Fresas", quantity: "500 g", notes: "Con moderación" },
-            { name: "Frambuesas", quantity: "300 g", notes: "Bajas en carbos" },
-            { name: "Moras", quantity: "300 g", notes: "Para desayunos" },
-            { name: "Arándanos", quantity: "200 g", notes: "Con moderación" },
-            { name: "Limones", quantity: "8-10 unidades", notes: "Para aderezos" }
+            { name: "Manzana", quantity: "1 kg", notes: "Licuados y colación" },
+            { name: "Pera", quantity: "6-8 unidades", notes: "" },
+            { name: "Durazno", quantity: "6-8 unidades", notes: "" },
+            { name: "Ciruela", quantity: "4-6 unidades", notes: "" },
+            { name: "Damasco", quantity: "4-6 unidades", notes: "" },
+            { name: "Banana", quantity: "2 pequeñas (opcional)", notes: "Máx. 2 por semana, no muy maduras" },
+            { name: "Limón", quantity: "6-8 unidades", notes: "Aderezos y licuado detox" }
         ]
     },
     {
-        id: "condimentos",
-        name: "Condimentos y Especias",
-        icon: "🧂",
+        id: "aceites",
+        name: "Aceites y condimentos",
+        icon: "🫒",
         items: [
-            { name: "Sal marina/Himalaya", quantity: "1 paquete", notes: "Electrolitos importantes" },
-            { name: "Pimienta negra", quantity: "1 frasco", notes: "" },
-            { name: "Ajo fresco", quantity: "2-3 cabezas", notes: "" },
-            { name: "Jengibre fresco", quantity: "1 raíz (opcional)", notes: "" },
-            { name: "Curry en polvo", quantity: "1 frasco", notes: "Para pollo al curry" },
-            { name: "Cúrcuma", quantity: "1 frasco", notes: "Antiinflamatorio" },
-            { name: "Comino", quantity: "1 frasco", notes: "" },
-            { name: "Orégano seco", quantity: "1 frasco", notes: "" },
-            { name: "Albahaca seca", quantity: "1 frasco", notes: "" },
-            { name: "Romero", quantity: "1 frasco", notes: "" },
-            { name: "Mostaza Dijon", quantity: "1 frasco", notes: "Sin azúcar" },
-            { name: "Vinagre de manzana", quantity: "500 ml", notes: "Para aderezos" },
-            { name: "Salsa de soja (tamari sin gluten)", quantity: "250 ml", notes: "Baja en carbos" },
-            { name: "Mayonesa keto", quantity: "1 frasco (400g)", notes: "Hecha con aceite de aguacate" },
-            { name: "Salsa picante/hot sauce", quantity: "1 botella", notes: "Sin azúcar" }
+            { name: "Aceite (oliva, girasol, maíz, canola)", quantity: "1 botella", notes: "Máx. 2 cucharaditas postre/día en crudo" },
+            { name: "Rocío vegetal", quantity: "1 envase", notes: "Para cocinar" },
+            { name: "Vinagre / aceto balsámico", quantity: "1 botella", notes: "" },
+            { name: "Jugo de limón", quantity: "a gusto", notes: "" },
+            { name: "Sal (poca)", quantity: "1 paquete", notes: "" },
+            { name: "Pimienta, laurel, tomillo, orégano", quantity: "a gusto", notes: "" },
+            { name: "Mayonesa light", quantity: "1 frasco", notes: "Muy esporádica; 1 cda = 1 cda aceite" },
+            { name: "Mostaza", quantity: "1 frasco", notes: "Sin azúcar" },
+            { name: "Edulcorante", quantity: "1 frasco", notes: "Para infusiones" }
         ]
     },
     {
         id: "despensa",
-        name: "Despensa Keto",
+        name: "Despensa y caldo",
         icon: "🍫",
         items: [
-            { name: "Harina de almendra", quantity: "500 g", notes: "Para pancakes, panes" },
-            { name: "Harina de coco", quantity: "250 g", notes: "Absorbe mucha humedad" },
-            { name: "Cacao en polvo sin azúcar", quantity: "200 g", notes: "Para postres" },
-            { name: "Chocolate oscuro (85-90%)", quantity: "200 g", notes: "1-2 cuadros al día" },
-            { name: "Endulzante eritritol", quantity: "400 g", notes: "O stevia" },
-            { name: "Monk fruit", quantity: "1 frasco pequeño (opcional)", notes: "Endulzante natural" },
-            { name: "Leche de almendra sin azúcar", quantity: "2 litros", notes: "Para batidos" },
-            { name: "Leche de coco entera (lata)", quantity: "4 latas (400ml c/u)", notes: "Para cocinar" },
-            { name: "Caldo de huesos", quantity: "2 litros", notes: "O hacer casero" },
-            { name: "Salsa marinara sin azúcar", quantity: "2 frascos (500g c/u)", notes: "Revisar etiquetas" },
-            { name: "Gelatina sin sabor", quantity: "1 caja", notes: "Para fat bombs" }
+            { name: "Caldo light / sobre caldo verduras sin sal", quantity: "para la semana", notes: "20-30 min antes de almuerzo y cena" },
+            { name: "Tomates naturales (para salsas)", quantity: "1 kg", notes: "Salsa fileto, bolognesa, italiana" },
+            { name: "Harinas sin TACC (1x/semana)", quantity: "según producto", notes: "Arepas, empanadas o tarta con sello sin TACC" },
+            { name: "Pan rallado sin TACC (opcional)", quantity: "1 paquete", notes: "Solo para milanesa 1x/semana" }
         ]
     },
     {
@@ -863,10 +815,10 @@ const shoppingData = [
         name: "Bebidas",
         icon: "☕",
         items: [
-            { name: "Café (granos o molido)", quantity: "500 g", notes: "Al gusto" },
-            { name: "Té verde/negro", quantity: "1-2 cajas", notes: "Sin azúcar" },
-            { name: "Agua mineral con gas", quantity: "A gusto", notes: "Para variedad" },
-            { name: "Electrolitos en polvo (keto)", quantity: "1 envase (opcional)", notes: "Prevenir keto-flu" }
+            { name: "Té, mate cocido, café", quantity: "a gusto", notes: "Infusiones amargas o con edulcorante" },
+            { name: "Agua mineral o corriente", quantity: "a gusto", notes: "" },
+            { name: "Jugos sin azúcar / gaseosas 0%", quantity: "opcional", notes: "Evitar gasificadas en exceso" },
+            { name: "Leche descremada (capuccino light)", quantity: "1 litro", notes: "" }
         ]
     }
 ];
@@ -874,8 +826,8 @@ const shoppingData = [
 // ========================================
 // State Management
 // ========================================
-const STORAGE_KEY = 'keto-shopping-list';
-const MEALS_STORAGE_KEY = 'keto-meals-completed';
+const STORAGE_KEY = 'sin-tacc-shopping-list';
+const MEALS_STORAGE_KEY = 'sin-tacc-meals-completed';
 
 let checkedItems = loadFromStorage(STORAGE_KEY);
 let completedMeals = loadFromStorage(MEALS_STORAGE_KEY);
@@ -968,8 +920,8 @@ function renderWeeklyMenu() {
                     const mealTypeLabel = meal.type.charAt(0).toUpperCase() + meal.type.slice(1);
                     
                     return `
-                        <div class="meal clickable ${meal.type === 'snack' ? 'snack' : ''} ${isCompleted ? 'completed' : ''}" 
-                             data-recipe-id="${meal.recipeId}" 
+                        <div class="meal clickable ${meal.type === 'snack' || meal.type === 'merienda' ? 'snack' : ''} ${isCompleted ? 'completed' : ''}" 
+                             data-recipe-id="${meal.recipeId != null ? meal.recipeId : ''}" 
                              data-meal-id="${mealId}">
                             <span class="meal-type">${meal.icon} ${mealTypeLabel}</span>
                             <p>${meal.name}</p>
@@ -987,6 +939,10 @@ function renderWeeklyMenu() {
         meal.addEventListener('click', () => {
             const recipeId = meal.dataset.recipeId;
             const mealId = meal.dataset.mealId;
+            if (!recipeId) {
+                toggleMealDoneOnly(mealId);
+                return;
+            }
             openRecipeModal(recipeId, mealId);
         });
     });
@@ -1008,6 +964,15 @@ function updateMealProgress() {
 // ========================================
 // Modal Functions
 // ========================================
+function toggleMealDoneOnly(mealId) {
+    completedMeals[mealId] = !completedMeals[mealId];
+    saveToStorage(MEALS_STORAGE_KEY, completedMeals);
+    const mealEl = menuContainer.querySelector(`[data-meal-id="${mealId}"]`);
+    if (mealEl) mealEl.classList.toggle('completed', completedMeals[mealId]);
+    updateMealProgress();
+    showToast(completedMeals[mealId] ? '¡Comida marcada como realizada!' : 'Comida desmarcada', completedMeals[mealId] ? 'success' : 'info');
+}
+
 function openRecipeModal(recipeId, mealId) {
     const recipe = recipesData[recipeId];
     if (!recipe) return;
@@ -1322,6 +1287,7 @@ function init() {
     clearSearchBtn.addEventListener('click', handleClearSearch);
     filterButtons.forEach(btn => btn.addEventListener('click', handleFilterChange));
     resetBtn.addEventListener('click', handleReset);
+
 }
 
 document.addEventListener('DOMContentLoaded', init);
