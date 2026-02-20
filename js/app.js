@@ -649,13 +649,15 @@ const recipesData = {
     }
 };
 
-// Weekly Menu Data - Dieta sin TACC (4 comidas: desayuno, almuerzo, merienda, cena)
+// Weekly Menu Data - Dieta sin TACC (6 comidas: desayuno, colación mañana, almuerzo, colación tarde, merienda, cena)
 const weeklyMenu = [
     {
         day: "Lunes",
         meals: [
             { type: "desayuno", icon: "🌅", name: "Infusión + licuado de frutas (durazno) o manzana sin piel", recipeId: null },
+            { type: "colacion", icon: "🍎", name: "Colación: 1 manzana sin piel o 1 pera sin piel", recipeId: null },
             { type: "almuerzo", icon: "🍽️", name: "Caldo + Pechuga pollo plancha + Ensalada cruda + Zapallito hervido", recipeId: null },
+            { type: "colacion", icon: "🍵", name: "Colación: Infusión + 2 cdas queso untable descremado con bastones de apio", recipeId: null },
             { type: "merienda", icon: "🥜", name: "Infusión + 1 pera sin piel", recipeId: null },
             { type: "cena", icon: "🌙", name: "Caldo + Pescado al horno + Acelga hervida + Ensalada chaucha y tomate", recipeId: null }
         ]
@@ -664,7 +666,9 @@ const weeklyMenu = [
         day: "Martes",
         meals: [
             { type: "desayuno", icon: "🌅", name: "Café con leche descremada o capuccino light + 1 fruta", recipeId: null },
+            { type: "colacion", icon: "🍎", name: "Colación: 1 durazno sin piel o 1 manzana sin piel", recipeId: null },
             { type: "almuerzo", icon: "🍽️", name: "Caldo + Carne magra plancha + Ensalada cruda + Calabaza al horno", recipeId: null },
+            { type: "colacion", icon: "🍵", name: "Colación: Mate + 1 yogur descremado o gelatina diet", recipeId: null },
             { type: "merienda", icon: "🥜", name: "Mate + queso untable descremado con bastones de apio", recipeId: null },
             { type: "cena", icon: "🌙", name: "Caldo + Pollo sin piel al horno con espárragos + Ensalada berenjena y tomate", recipeId: null }
         ]
@@ -673,7 +677,9 @@ const weeklyMenu = [
         day: "Miércoles",
         meals: [
             { type: "desayuno", icon: "🌅", name: "Licuado detox o infusión + 1 fruta permitida", recipeId: null },
+            { type: "colacion", icon: "🍎", name: "Colación: 1 pera sin piel o 1 ciruela sin piel", recipeId: null },
             { type: "almuerzo", icon: "🍽️", name: "Caldo + Merluza al vapor + Ensalada cruda + Espinaca hervida", recipeId: null },
+            { type: "colacion", icon: "🍵", name: "Colación: Infusión + 1 fruta (manzana o durazno sin piel)", recipeId: null },
             { type: "merienda", icon: "🥜", name: "Infusión + yogur descremado o gelatina diet", recipeId: null },
             { type: "cena", icon: "🌙", name: "Caldo + Lomo de cerdo plancha + Zapallo hervido + Ensalada cruda", recipeId: null }
         ]
@@ -682,7 +688,9 @@ const weeklyMenu = [
         day: "Jueves",
         meals: [
             { type: "desayuno", icon: "🌅", name: "Infusión + licuado (½ banana o manzana + agua)", recipeId: null },
+            { type: "colacion", icon: "🍎", name: "Colación: 1 manzana sin piel o bastones de zanahoria con queso untable", recipeId: null },
             { type: "almuerzo", icon: "🍽️", name: "Caldo + Pollo con salsa fileto light + Ensalada + Chaucha hervida", recipeId: null },
+            { type: "colacion", icon: "🍵", name: "Colación: Infusión + 1 pote postre light o 1 yogur descremado", recipeId: null },
             { type: "merienda", icon: "🥜", name: "Infusión + 1 fruta (ciruela o damasco sin piel)", recipeId: null },
             { type: "cena", icon: "🌙", name: "Caldo + Carne magra con salsa bolognesa light + Ensalada + Calabacín al horno", recipeId: null }
         ]
@@ -691,7 +699,9 @@ const weeklyMenu = [
         day: "Viernes",
         meals: [
             { type: "desayuno", icon: "🌅", name: "Café o té + 1 fruta. Opción: 2 claras revueltas con verduras", recipeId: null },
+            { type: "colacion", icon: "🍎", name: "Colación: 1 pera sin piel o 1 durazno sin piel", recipeId: null },
             { type: "almuerzo", icon: "🍽️", name: "Caldo + Pescado a la plancha + Ensalada cruda + Espárragos hervidos", recipeId: null },
+            { type: "colacion", icon: "🍵", name: "Colación: Mate + queso untable con bastones de apio", recipeId: null },
             { type: "merienda", icon: "🥜", name: "Mate + postre light o 1 fruta", recipeId: null },
             { type: "cena", icon: "🌙", name: "Caldo + Harinas 1x/sem: 2 empanadas o tarta sin TACC + Ensalada cruda", recipeId: null }
         ]
@@ -700,7 +710,9 @@ const weeklyMenu = [
         day: "Sábado",
         meals: [
             { type: "desayuno", icon: "🌅", name: "Licuado de frutas (manzana + agua) o infusión + 1 fruta", recipeId: null },
+            { type: "colacion", icon: "🍎", name: "Colación: 1 manzana sin piel o 1 ciruela sin piel", recipeId: null },
             { type: "almuerzo", icon: "🍽️", name: "Caldo + Pollo con salsa italiana light + Ensalada + Hongos salteados", recipeId: null },
+            { type: "colacion", icon: "🍵", name: "Colación: Infusión + yogur descremado o gelatina diet", recipeId: null },
             { type: "merienda", icon: "🥜", name: "Infusión + queso untable con bastones de apio/zanahoria", recipeId: null },
             { type: "cena", icon: "🌙", name: "Caldo + Milanesa al horno (1x/sem, sin TACC) + Ensalada cruda + Tomate", recipeId: null }
         ]
@@ -709,7 +721,9 @@ const weeklyMenu = [
         day: "Domingo",
         meals: [
             { type: "desayuno", icon: "🌅", name: "Capuccino light o infusión + durazno o pera sin piel", recipeId: null },
+            { type: "colacion", icon: "🍎", name: "Colación: 1 manzana sin piel o 1 pera sin piel", recipeId: null },
             { type: "almuerzo", icon: "🍽️", name: "Caldo + Carne magra a la parrilla + Ensalada abundante + Puerro y calabaza", recipeId: null },
+            { type: "colacion", icon: "🍵", name: "Colación: Infusión + 1 fruta o 2 cdas queso untable con apio", recipeId: null },
             { type: "merienda", icon: "🥜", name: "Infusión + 1 vaso leche descremada o 1 yogur descremado", recipeId: null },
             { type: "cena", icon: "🌙", name: "Caldo + Pescado al horno con limón y hierbas + Acelga y espinaca + Ensalada", recipeId: null }
         ]
@@ -920,7 +934,7 @@ function renderWeeklyMenu() {
                     const mealTypeLabel = meal.type.charAt(0).toUpperCase() + meal.type.slice(1);
                     
                     return `
-                        <div class="meal clickable ${meal.type === 'snack' || meal.type === 'merienda' ? 'snack' : ''} ${isCompleted ? 'completed' : ''}" 
+                        <div class="meal clickable ${meal.type === 'snack' || meal.type === 'merienda' || meal.type === 'colacion' ? 'snack' : ''} ${isCompleted ? 'completed' : ''}" 
                              data-recipe-id="${meal.recipeId != null ? meal.recipeId : ''}" 
                              data-meal-id="${mealId}">
                             <span class="meal-type">${meal.icon} ${mealTypeLabel}</span>
